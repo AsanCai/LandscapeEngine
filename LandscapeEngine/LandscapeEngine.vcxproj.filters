@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{057e7352-ee8e-4e87-bc5b-83f19c8b8af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{66c349cb-7dae-46d7-9519-cd53fcb69ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility">
+      <UniqueIdentifier>{ad1aec7f-566b-4778-84c7-3abdf7bbe813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{76c45445-2a04-47ec-aa34-4a19c2e9dbc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{de8dc8c6-c63f-46d5-9c7e-709f1f4bbae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependency">
+      <UniqueIdentifier>{7a2281e1-2ba5-4e6e-b371-ea37c3cb9490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependency\imgui">
+      <UniqueIdentifier>{3de6f4b8-e0c2-4e01-a1e6-d77916dbc4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Config">
+      <UniqueIdentifier>{84ba0fa8-993a-4069-bb69-5c6384954de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor">
+      <UniqueIdentifier>{09bffecb-1bc5-406d-a872-5d8c46f8f22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Landscape">
+      <UniqueIdentifier>{1c90c7b3-65f9-44f3-8d31-f6cd71e97053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Event">
+      <UniqueIdentifier>{e220df9e-f8ed-405e-b4c2-6d7b432a7c34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Core\Camera.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Framebuffer.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Mesh.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Model.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Shader.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Skybox.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\Log.h">
+      <Filter>Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\ScreenQuad.h">
+      <Filter>Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\Texture.h">
+      <Filter>Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Application.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency\imgui\imconfig.h">
+      <Filter>Dependency\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency\imgui\imgui.h">
+      <Filter>Dependency\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency\imgui\imgui_impl_glad.h">
+      <Filter>Dependency\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency\imgui\imgui_impl_glfw.h">
+      <Filter>Dependency\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency\imgui\imgui_internal.h">
+      <Filter>Dependency\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency\imgui\imstb_rectpack.h">
+      <Filter>Dependency\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency\imgui\imstb_textedit.h">
+      <Filter>Dependency\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency\imgui\imstb_truetype.h">
+      <Filter>Dependency\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Config\LayoutConfig.h">
+      <Filter>Engine\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Config\OpenGLConfig.h">
+      <Filter>Engine\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\Editor.h">
+      <Filter>Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\TextureWindow.h">
+      <Filter>Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Config\InputConfig.h">
+      <Filter>Engine\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\ToolWindow.h">
+      <Filter>Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\BaseShader.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\ComputeShader.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\TessellationShader.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Landscape\Landscape.h">
+      <Filter>Engine\Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Landscape\VolumetricCloud.h">
+      <Filter>Engine\Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\BaseWindow.h">
+      <Filter>Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Event\Event.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Event\Dispatcher.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Event\BaseEvent.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\ScreenshotWindow.h">
+      <Filter>Engine\Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Utility\Log.cpp">
+      <Filter>Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\ScreenQuad.cpp">
+      <Filter>Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\Texture.cpp">
+      <Filter>Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\glad.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\stb_image.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui.cpp">
+      <Filter>Dependency\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_demo.cpp">
+      <Filter>Dependency\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_draw.cpp">
+      <Filter>Dependency\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_impl_glad.cpp">
+      <Filter>Dependency\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_impl_glfw.cpp">
+      <Filter>Dependency\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_widgets.cpp">
+      <Filter>Dependency\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\stb_image_write.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\CloudPost.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\CopyFrame.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PostProcessing.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ScreenQuad.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\VolumetricCloud.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Weather.comp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ScreenShot.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
